@@ -1,0 +1,352 @@
+/*body #chinedusPortfolioApp {
+  width: 100%;
+  height: 100%;
+  font-family: Gotham-Rounded;
+  background: rgba(0,0,0,0.7);
+}*/
+
+@font-face {
+    font-family: Gotham-Rounded;
+    src: url("font/Gotham-Rounded-Medium_21022.ttf");
+    font-weight: bold;
+}
+
+/*************************************************************
+           HEADER SECTION      
+*************************************************************/   
+
+.landingSection {
+  background-image: url("../images/chinsbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, rgba(0,0,0,1), rgba(230,230,230,0.9));
+}
+
+.nav-fixed {
+  width: 100%;
+  height: 60px;
+  /*position: fixed;*/
+}
+
+.logo-list-container {
+  width: 100%;
+  margin: 20px 0 0 0;
+  display: inline-block;
+}
+
+.logo-contain {
+  width: 50%;
+  float: left;
+}
+
+.list-contain {
+  width: 50%;
+  float: left;
+}
+
+.list-contain ul {
+  text-align: right;
+}
+
+.list-contain ul li {
+  letter-spacing: 2px;
+  font-size: 7px;
+  display: inline;
+  margin-left: 40px;
+}
+
+#list-margin {
+  margin-right: 30px;
+}
+
+#logo-margin {
+  margin-left: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*a:link {
+  color: white;
+}*/
+
+/*************************************************************
+           WELCOME SECTION      
+*************************************************************/
+
+.welcomeCaption {
+  background-color: rgba(216,216,216,0.1);
+  color: rgba(224,224,224,1);
+  margin: 150px 0 0 200px;
+  letter-spacing: 0.83;
+  font-size: 20px;
+  /*width: 86%;*/
+  height: 300px;
+  margin: 50px;
+}
+
+.aboutMe {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+}
+
+#downIcon {
+  display: inline-block;
+  margin-top: 160px;
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 35px; 
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.3);
+  text-align: center;
+}
+
+.myPicture {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
+
+.welcome {
+  width: 100%;
+  float: left;
+}
+
+.aboutMe span p {
+  margin: 10px 0 0 0;
+}
+
+/*************************************************************
+           PROJECTS SECTION      
+*************************************************************/
+
+.audiohuntImg {
+    width: 100%;
+    height: 100%;
+}
+
+.project-section-header {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+
+.project-contain {
+  width: 100%;
+  margin: 10px 0 0 0;
+  float: left;
+  text-align: center;
+}
+
+.font-edit p {
+  font-family: 'Abril Fatface', cursive;
+  margin: 40px 0 0 0;
+  color: rgba(0,0,0,0.4);
+}
+
+.color-grey {
+    background-color: rgba(230,230,230,0.5);
+}
+
+.color-white {
+    background-color: #FFFFFF;
+}
+
+.border {
+    border-width: 2px;
+}
+
+.font-edit {
+    width: 70%;
+    margin: 35% 0 0 0;
+    color: white;
+    float: left;
+}
+
+.projects-layout {
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    margin: 15px 0 35px 0;
+}
+
+.project-images {
+    width: 33.3333333333%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.project-images .text {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    margin: 100px 0 0 0;
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+
+.projects-overlay {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+/*************************************************************
+           FOOTER SECTION      
+*************************************************************/
+
+.icons li {
+    height: 100%; 
+    width: 20%;
+    float: left;
+    margin: 2.5%;
+    display: inline-block;
+}
+
+.icons {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footerAlign {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/*****************************************************************************************************
+
+
+                                     BLOG SECTION CSS   
+
+
+******************************************************************************************************/
+
+.blog-full-width {
+  width: 60%;
+  height: 100%; 
+  background: black;
+  color: white;
+  margin: 0 20% 0 20%;
+  -webkit-box-shadow: 10px 3px 130px -31px rgba(0,0,0,0.93);
+  -moz-box-shadow: 10px 3px 130px -31px rgba(0,0,0,0.93);
+  box-shadow: 10px 3px 130px -31px rgba(255,255,255,0.2);
+}
+
+/*************************************************************
+           HEADER SECTION      
+*************************************************************/
+
+
+.header-container {
+  width: 100%;
+  text-align: center;
+  color: rgba(192,192,192,0.5);
+}
+
+.header-container h1 {
+  margin-bottom: 0; 
+}
+
+hr {
+  border-top: 1px solid #111111; 
+  border-bottom: 1px solid #292929; 
+}
+
+.image-container {
+  width: 100%;
+  height: 500px;
+}
+
+/*************************************************************
+           BLOG SECTION      
+*************************************************************/
+
+#blog-section {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-container {
+  background-image: url("../images/imageblog.png");
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 100%;
+  height: 550px;
+}
+
+.text-contain {
+  width: 50%;
+  color: rgba(192,192,192,0.8);
+  font-family: Gotham-Rounded;
+  src: url("font/Gotham-Rounded-Medium_21022.ttf");
+  padding: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.text-contain h6 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+  margin-top: 10px; 
+  font-size: 1.5em;
+  color: rgba(192,192,192,0.5);
+}
+
+/*************************************************************
+           FOOTER SECTION      
+*************************************************************/
+
+#footer {
+  width: 100%;
+  height: 40px;
+  background: black;
+  font-family: 'Muli', sans-serif;
+  color: rgba(128,128,128,0.5);
+}
+
+#footer hr {
+  border-top: 1px solid #111111; 
+  border-bottom: 1px solid #292929; 
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.cpright {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
