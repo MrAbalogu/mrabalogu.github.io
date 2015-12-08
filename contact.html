@@ -66,66 +66,53 @@
 
   <div class="content" id="ajax-content">
 
+        <div class="text-intro">
 
-        <div class="text-intro" id="site-type">
+          <h1>Contact</h1>
+          <p>To contact us please use the contact form visible. When sending files, please use the following e-mail</p>
 
-          <h1>My user friendly modern</h1>
-          <h1 class="typewrite"><span>Portfolio</span></h1> <!--Change on script.js-->
-          <p>Please check my portfolio. All project's were done for clients and have a blogging framework site for sale <a href="https://myawesomeblog2015.herokuapp.com/">here</a> </p>
-
+          <form method="post" action="?" data-jkit="[form:validateonly=true]">
+          
+          <div class="contact-one">
+            <p>
+              <label for="miniusername">Username:</label><br />
+              <input name="miniusername" id="miniusername" data-jkit="[validate:required=true;min=3;max=10;error=Please enter your username (3-10 characters)]">
+            </p>
+          </div>  
+          
+          <div class="contact-two">  
+            <p>
+              <label for="miniemail">E-mail:</label><br />
+              <input name="miniemail" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Please write your email]">
+            </p>
+          </div>  
+          
+          <div class="contact-three">  
+            <p>
+              <label>Message:</label><br />
+              <textarea id="message" name="message"></textarea><br/><br/>
+              
+              <input class="button-submit" name="send" type="submit" value="SUBMIT" />
+            </p>
+          </div>            
+            
+            <p>
+            </p>
+          </form>
+          
+          
         </div>
-
-
-  <!--Portfolio grid-->
-
-  <ul class="portfolio-grid" id="portfolio-sidebar">
-
-    
-    <li class="grid-item">
-      <img src="img/blog-img.png">
-        <a class="ajax-link" href="single.html">  
-          <div class="grid-hover">
-            <h1>Rails Blog</h1>
-            <p>For bloggers 'fashion bloggers etc'</p>
-          </div>
-        </a>  
-    </li>
-    
-    <li class="grid-item">
-      <img src="img/filterland-img.png">
-        <a href="http://filterlandindustries.com/">  
-          <div class="grid-hover">
-            <h1>Filterland Industries</h1>
-            <p>Oil & Gas filters manufacturers</p>
-          </div>
-        </a>      
-    </li>  
-      
-  </ul>
-
+        
+	<br/><br/><br/><br/><br/><br/><br/><br/>      
   </div>
+
+
+
 
   <!--Home Sidebar-->
 
-<div id="ajax-sidebar">
+<div id="ajax-sidebar"></div>
 
-  <div class="home-sidebar" style="background-image:url('img/home-sidebar.jpg')" id="hero">
-
-    <div class="parallax-option" data-jkit="[parallax:strength=0.8;axis=both]">
-
-      <div class="parallax parallax1" id="image_wrapper"><img id="myimage" src="img/chinedu.jpg"></div>
-    
-    </div>
-
-    <div class="parallax-option" data-jkit="[parallax:strength=0.3;axis=both]">
-
-      <div class="parallax parallax1" id=""><img src="img/business-card.png"></div>
-    
-    </div>
-
-  </div>
-
-</div>
 
 
   <!--Footer-->
@@ -141,7 +128,6 @@
     </div>
 
   </footer>
-
 
 
 <!--Scripts-->
