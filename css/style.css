@@ -672,6 +672,10 @@ input.button-submit{
   font-size:13px;
 }
 
+input.button-submit:hover{
+  color: purple;
+}  
+
 input:focus{
   background:#f4f4f4; 
 }
